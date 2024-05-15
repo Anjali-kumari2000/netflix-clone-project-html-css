@@ -1,0 +1,126 @@
+<html>
+<head>
+
+	<style>
+		
+		#main{
+
+				border:2px solid blue;
+				width:350px;
+				height:600px;
+				margin-left:37%;
+				background-color:#fff;
+				border-radius:10px;
+				margin-top:50px;
+			}
+		
+		.i{border-left-style:none;
+			border-right-style:none;
+			border-top-style:none;	
+			border-width:1px;
+			border-color:blue;
+			width:250px;
+
+			}
+		.p{text-align:right; padding:6px;}
+		.u{font-size:14px;
+				padding:6px;}
+
+		body{
+
+				background-image:url("pic2.jpg");
+				background-repeat:no-repeat;
+				background-size:cover;	
+		}
+
+
+		.log{
+
+				border:2px none blue;
+				width:250px;
+				height:30px;
+				border-radius:20px;
+				background-image:linear-gradient(to right,indigo,pink,purple);
+				color:white;
+
+		}
+		
+		.log1{
+
+				border:2px none blue;
+				width:90px;
+				height:30px;
+				border-radius:20px;
+				background-image:linear-gradient(to right,pink,purple,pink);
+				color:white;
+
+		}
+
+
+
+
+	</style>
+
+
+
+</head>
+<body>
+<div id="main">
+<form method="post" action="loginbackendpage.php">
+<table align="center">
+<tr>
+	<td><h1 style="text-align:center; margin-top:30px; font-family:Arial;"> Login</h1></td>
+	</tr>
+	<tr>
+		<td class="u">User ID</td>
+	</tr>
+	<tr>
+		<td><input type="text" name="t1" placeholder="Enter your username" class="i"></td>
+	</tr>
+	<tr>
+		<td class="u">Password</td>
+	</tr>
+	<tr>
+		<td><input type="text" name="t2" placeholder="Enter your password" class="i"></td>
+	</tr>
+	<tr>
+		<td class="p"><h5>Forget password?<h5></td>
+	</tr>
+</table>
+<center>
+	<input type="submit" value="LOGIN" class="log1">
+
+<input type="submit" value="Reset" class="log1">
+	<!----<div>
+		<button id="b">submit</button>
+		<button id="c">cancel</button>
+
+
+</div>
+<script>
+	let b=document.querySelector('#b')
+	let c=document.querySelector('#c')
+	let form=document.querySelector('form')
+	b.addEventListener('click',()=>{
+		form.style.display='none'
+	})
+	c.addEventListener('click',()=>{
+		form.style.display='none'
+	})
+
+</script>----->
+<p style="padding:5px;"> or Sign Up using</p>
+
+<img src="image/google-icon.png" style="width:25px;">
+<img src="image/fb (1).png" style="width:25px;">
+<img src="image/fb (2).png" style="width:25px;">
+
+<p style="padding-top:20px; font-size:16px"> or </p>
+</center>
+<center>
+		<a href="cac.html">create account</a>
+</center>
+</form>
+</div>
+</body>
+</html>
